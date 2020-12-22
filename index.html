@@ -11,15 +11,15 @@
 	<h1>My Drums Machine</h1>
 	<div class="container" id="drum-machine">
 		<div id="number-pad">
-			<div class="drum-pad"><button>Q<audio src='https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3' id="Q" class="clip" name="hi-hat" ></audio></button></div>
-			<div class="drum-pad" id="W"><button>W</button></div>
-			<div class="drum-pad" id="E"><button>E</button></div>
-			<div class="drum-pad" id="A"><button>A</button></div>
-			<div class="drum-pad" id="S"><button>S</button></div>
-			<div class="drum-pad" id="D"><button>D</button></div>
-			<div class="drum-pad" id="Z"><button>Z</button></div>
-			<div class="drum-pad" id="X"><button>X</button></div>
-			<div class="drum-pad" id="C"><button>C</button></div>
+			<div class="drum-pad"><button id="buttonQ">Q<audio id="Q" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonW">W<audio id="W" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonE">E<audio id="E" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonA">A<audio id="A" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonS">S<audio id="S" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonD">D<audio id="D" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonZ">Z<audio id="Z" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonX">X<audio id="X" class="clip"></audio></button></div>
+			<div class="drum-pad"><button id="buttonC">C<audio id="C" class="clip"></audio></button></div>
 		</div><!--end of number-pad-->
 
 		<div id="controls">
@@ -32,7 +32,7 @@
 			</div>
 
 			<div id="display">
-				<p>Name here</p>
+				<p></p>
 			</div>
 
 			<div class="volume">
@@ -50,5 +50,9 @@
 		</div><!--end of controls-->
 
 	</div><!--end of container-->
+
+	<div id="footer">
+		<p>By Sofia Lopez</p>
+	</div>
 </body>
 </html>
